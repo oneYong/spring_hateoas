@@ -2,18 +2,13 @@ package com.hateoas.api;
 
 import com.hateoas.entity.SsUser;
 import com.hateoas.mapper.UserMapper;
-import com.hateoas.resource.Greeting;
 import com.hateoas.resource.UserDto;
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import org.springframework.beans.BeanUtils;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.jws.soap.SOAPBinding;
-
-import java.util.Date;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
